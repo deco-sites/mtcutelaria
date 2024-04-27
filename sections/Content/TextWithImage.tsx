@@ -18,6 +18,26 @@ const PLACEMENT = {
   right: "flex-col lg:flex-row",
 };
 
+const appear = {
+  "appear": `    
+        @keyframes appear {
+            from {
+                opacity: 0;
+                translate: -100vw 0;
+            }
+            to {
+                opacity: 1;
+                translate: 0 0;
+            }
+        }   
+        .appear {
+          animation: appear 7s ease-out;
+          animation-timeline:view();
+          animation-range: cover 0% cover 40%;
+      }
+    `
+}
+
 export default function Services({
   services = [
     {
@@ -33,12 +53,16 @@ export default function Services({
 }: Props) {
   return (
     <div class="bg-base-100 flex flex-col py-28">
+      <style
+        dangerouslySetInnerHTML={{ __html: appear["appear"] }}
+      >
+      </style>
       {services?.map((service, index) => (
         <div
+          style={{ animationDuration: "2s" }}
           key={index}
-          class={`flex xl:container xl:mx-auto first:pt-0 py-12 lg:py-28 mx-5 md:mx-10 ${
-            PLACEMENT[service.placement]
-          } gap-12 md:gap-20 text-left items-center justify-evenly`}
+          class={`flex xl:container xl:mx-auto first:pt-0 py-12 lg:py-28 mx-5 md:mx-10 appear ${PLACEMENT[service.placement]
+            } gap-12 md:gap-20 text-left items-center justify-evenly`}
         >
           <img
             class="w-full lg:w-1/2 flex-1 object-cover rounded-xl aspect-[31/21]"

@@ -118,18 +118,12 @@ function BannerItem(
     >
       {action && (
         <div class="absolute top-0 md:bottom-0 bottom-1/2 left-0 right-0 sm:right-auto max-w-[407px] flex flex-col justify-end gap-4 px-8 py-12">
-          <span class="text-2xl font-light text-base-100">
+          <span class=" text-9xl text-base-100 uppercase font-bold" style={"-webkit-text-stroke: 5px black;"}>
             {action.title}
           </span>
           <span class="font-normal text-4xl text-base-100">
             {action.subTitle}
           </span>
-          <Button
-            class="bg-base-100 text-sm font-light py-4 px-6 w-fit"
-            aria-label={action.label}
-          >
-            {action.label}
-          </Button>
         </div>
       )}
       <Picture preload={lcp}>
@@ -148,7 +142,7 @@ function BannerItem(
           height={600}
         />
         <img
-          class="object-cover w-full h-full"
+          class="object-cover w-full h-full max-h-[90vh]"
           loading={lcp ? "eager" : "lazy"}
           src={desktop}
           alt={alt}
