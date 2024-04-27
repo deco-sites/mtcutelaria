@@ -35,8 +35,8 @@ const appear = {
           animation-timeline:view();
           animation-range: cover 0% cover 40%;
       }
-    `
-}
+    `,
+};
 
 export default function Services({
   services = [
@@ -61,8 +61,9 @@ export default function Services({
         <div
           style={{ animationDuration: "2s" }}
           key={index}
-          class={`flex xl:container xl:mx-auto first:pt-0 py-12 lg:py-28 mx-5 md:mx-10 appear ${PLACEMENT[service.placement]
-            } gap-12 md:gap-20 text-left items-center justify-evenly`}
+          class={`flex xl:container xl:mx-auto first:pt-0 py-12 lg:py-28 mx-5 md:mx-10 appear ${
+            PLACEMENT[service.placement]
+          } gap-12 md:gap-20 text-left items-center justify-evenly`}
         >
           <img
             class="w-full lg:w-1/2 flex-1 object-cover rounded-xl aspect-[31/21]"
