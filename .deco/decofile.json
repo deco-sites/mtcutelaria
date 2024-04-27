@@ -3134,89 +3134,22 @@
             "value": {
               "__resolveType": "site/sections/Images/Carousel.tsx",
               "dots": false,
-              "arrows": true,
+              "arrows": false,
               "images": [
                 {
-                  "alt": "Feminino",
+                  "alt": "Cutelaria",
                   "action": {
-                    "href": "/feminino",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
+                    "label": " ",
+                    "title": "Cutelaria",
+                    "subTitle": " ",
+                    "href": " "
                   },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                },
-                {
-                  "alt": "Masculino",
-                  "action": {
-                    "href": "/masculino",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                },
-                {
-                  "alt": "Vestidos",
-                  "action": {
-                    "href": "/feminino/roupas/vestidos",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/02ae18e7-35f4-4cb3-840e-3a59a6a92dea",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/e0eed016-13bc-465c-bab1-fb94ae71f035"
                 }
               ],
-              "preload": true
-            },
-            "rule": {
-              "__resolveType": "Teste AB"
-            }
-          },
-          {
-            "value": {
-              "__resolveType": "site/sections/Images/Carousel.tsx",
-              "dots": false,
-              "arrows": true,
-              "images": [
-                {
-                  "alt": "Feminino",
-                  "action": {
-                    "href": "/feminino",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                },
-                {
-                  "alt": "Masculino",
-                  "action": {
-                    "href": "/masculino",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                },
-                {
-                  "alt": "Vestidos",
-                  "action": {
-                    "href": "/feminino/roupas/vestidos",
-                    "label": "Explore collection",
-                    "title": "VTEX Store",
-                    "subTitle": "Visit our site and start building now:"
-                  },
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-                }
-              ],
-              "preload": true
+              "preload": true,
+              "title": "Cutelaria"
             },
             "rule": {
               "__resolveType": "website/matchers/always.ts"
