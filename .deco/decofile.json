@@ -3158,6 +3158,9 @@
         ]
       },
       {
+        "__resolveType": "Preview site/sections/History/History.tsx"
+      },
+      {
         "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
         "content": [
           {
@@ -3334,6 +3337,7 @@
         }
       },
       {
+        "title": "Best Sellers",
         "__resolveType": "site/sections/Product/ProductShelfTabbed.tsx",
         "tabs": [
           {
@@ -3359,7 +3363,6 @@
             }
           }
         ],
-        "title": "Best Sellers",
         "layout": {
           "headerfontSize": "Large",
           "headerAlignment": "center"
@@ -3369,8 +3372,8 @@
         }
       },
       {
-        "title": "Blogposts",
         "__resolveType": "site/sections/Content/BlogPosts.tsx",
+        "title": "Blogposts",
         "posts": [
           {
             "alt": "Item of the Summer",
