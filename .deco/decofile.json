@@ -1571,7 +1571,7 @@
       "primary": "#f28c18",
       "base-100": "#212121",
       "tertiary": "#51a800",
-      "secondary": "#6d3a9c"
+      "secondary": "#FF4E44"
     },
     "buttonStyle": {
       "--border-btn": "3px",
