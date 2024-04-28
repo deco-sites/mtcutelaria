@@ -46,7 +46,6 @@ const appeartextandimage = {
 function History({ steps }: HistoryProps) {
   return (
     <div class="flex flex-row w-full">
-
       <ul className="flex flex-col gap-9 w-full items-center justify-center">
         {steps.map((step) => (
           <li
@@ -55,17 +54,22 @@ function History({ steps }: HistoryProps) {
           >
             <div class="flex flex-col gap-3 justify-center items-center">
               <h2 class="text-4xl font-semibold text-center">{step.title}</h2>
-              <span class="text-center" dangerouslySetInnerHTML={{ __html: step.content }}></span>
+              <span
+                class="text-center"
+                dangerouslySetInnerHTML={{ __html: step.content }}
+              >
+              </span>
             </div>
-            {step.img && <Image
-              width={500}
-              height={500}
-              src={step.img}
-              fetchPriority="low"
-              loading={"lazy"}
-              class="object-cover rounded-md"
-
-            />}
+            {step.img && (
+              <Image
+                width={500}
+                height={500}
+                src={step.img}
+                fetchPriority="low"
+                loading={"lazy"}
+                class="object-cover rounded-md"
+              />
+            )}
           </li>
         ))}
       </ul>

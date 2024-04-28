@@ -130,7 +130,6 @@ const bgText = {
   `,
 };
 
-
 function BannerItem(
   { image, lcp, id }: { image: Banner; lcp?: boolean; id: string },
 ) {
@@ -140,7 +139,6 @@ function BannerItem(
     desktop,
     action,
   } = image;
-
 
   return (
     <a
