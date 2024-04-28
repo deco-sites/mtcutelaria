@@ -3169,6 +3169,9 @@
         ]
       },
       {
+        "__resolveType": "Preview site/sections/Ferramentas/Ferramentas.tsx"
+      },
+      {
         "__resolveType": "site/sections/Content/RichText.tsx",
         "text": "<div data-breakout=\"normal\"><h2 class=\"R920X _5wA-D d0eTW vC2ou -oJ0G\" style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"J6XX-\" style=\"font-size: 36pt;\" data-mce-style=\"font-size: 36pt;\">O que é cutelaria?</span></h2><p id=\"viewer-pxpdi44\" class=\"R920X _5wA-D d0eTW vC2ou -oJ0G\" style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"J6XX-\">O nome pode até soar estranho e esquisito ao ouvido de muitos, mas a cutelaria é uma arte milenar essencial ao cotidiano, e tem um espaço mais do que especial no coração dos colecionadores.</span></p></div><div data-breakout=\"normal\" style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><p id=\"viewer-vtilj47\" class=\"R920X _5wA-D d0eTW vC2ou -oJ0G\"><span class=\"J6XX-\">Isso porque o ofício cuteleiro, como a própria origem do termo em Latim, Cutellum (faca) explica, é voltado à produção de instrumentos metálicos de corte e perfuração, como facas, navalhas, espadas, machadinhas, facões, etc, e seus adereços como cabos, bainhas, suportes decorativos, entre outros.</span></p></div><div data-breakout=\"normal\"><p id=\"viewer-buwxp52\" class=\"R920X _5wA-D d0eTW vC2ou -oJ0G\" style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"J6XX-\">Tudo que envolve esse universo é produzido pelo ramo cuteleiro, que é uma das profissões mais antigas do mundo. Atualmente é possível encontrar dois estilos de cutelaria, a artesanal, feita por artesãos, que fazem um trabalho personalizado e com estilo próprio, e a industrial, de larga escala, possível de ser encontrada em diversas lojas.&nbsp;&nbsp;</span></p></div>"
       },
@@ -3441,5 +3444,36 @@
       ]
     },
     "title": "Um Pouco da Historia da Cutelaria"
+  },
+  "Preview site/sections/Ferramentas/Ferramentas.tsx": {
+    "__resolveType": "site/sections/Ferramentas/Ferramentas.tsx",
+    "ferramentas": [
+      {
+        "title": "Biorgorna ",
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/67daa866-1e60-438e-a2cc-57e752b89f67",
+        "content": "<p>Na cutelaria, a bigorna é usada principalmente para moldar e manipular peças de metal quente. E</p>"
+      },
+      {
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/8c3d657c-576b-48c4-8a46-361ccb114eb3",
+        "title": "Lixaideira ",
+        "content": "<p>a cutelaria, a lixadeira é utilizada para refinar e polir as peças metálicas, especialmente após o processo de forjamento e têmpera.</p>"
+      },
+      {
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/ff4eb9af-68b4-4372-870b-ee5a28d397cb",
+        "title": "Forja",
+        "content": "<p>A forja é uma das ferramentas mais importantes na cutelaria e na metalurgia em geral. Ela é utilizada para aquecer o metal a altas temperaturas, tornando-o maleável o suficiente para ser moldado e manipulado.</p>"
+      },
+      {
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/245c971f-612c-4fbb-abfc-720857c60bff",
+        "title": "Furadeira",
+        "content": "<p>Embora não seja uma ferramenta tão central quanto a forja ou a lixadeira na cutelaria, a furadeira ainda desempenha um papel importante no processo de fabricação de facas e outros instrumentos cortantes.</p>"
+      },
+      {
+        "title": "Marreta",
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/ae516842-68b2-4519-b418-4f90d3b4d36d",
+        "content": "<p>Ela é usada para aplicar força e impacto controlado sobre o metal enquanto está sendo moldado na forja.</p>"
+      }
+    ],
+    "title": "Algumas das Ferramentas de um Cuteleiro"
   }
 }
