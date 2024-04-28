@@ -1,5 +1,6 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, Source } from "apps/website/components/Picture.tsx";
+import { asset } from "$fresh/runtime.ts";
 import {
   SendEventOnClick,
   SendEventOnView,
@@ -99,6 +100,37 @@ const DEFAULT_PROPS = {
   preload: true,
 };
 
+const bgText = {
+  "bgText": `
+    .bgText{
+      background-image: url(${asset("/gif_fogo.gif")});
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textanimation 2s ease-in-out ;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    
+    }
+
+    @keyframes textanimation  {
+      0%{
+        transform: scale(1, 1);
+        translate:0 0
+      }
+      100%{
+        transform: scale(1.5 1.5);
+        translate:0 -10vh
+      }
+    }   
+
+    .appeartextandimage{
+      animation: textanimation 7s ease-out;
+      animation-timeline:view();
+    }
+  `,
+};
+
+
 function BannerItem(
   { image, lcp, id }: { image: Banner; lcp?: boolean; id: string },
 ) {
@@ -109,6 +141,7 @@ function BannerItem(
     action,
   } = image;
 
+
   return (
     <a
       id={id}
@@ -117,10 +150,10 @@ function BannerItem(
       class="relative overflow-y-hidden w-full"
     >
       {action && (
-        <div class="absolute top-0 md:bottom-0 bottom-1/2 left-0 right-0 sm:right-auto max-w-[407px] flex flex-col justify-end gap-4 px-8 py-12">
+        <div class="absolute top-0 md:bottom-0 bottom-1/2 left-0 right-0 sm:right-auto flex flex-col justify-end gap-4 px-8 py-12">
           <span
-            class=" text-9xl text-base-100 uppercase font-bold"
-            style={"-webkit-text-stroke: 5px black;"}
+            class=" text-9xl text-base-100 uppercase font-bold bgText"
+            style={"-webkit-text-stroke: 2px black;"}
           >
             {action.title}
           </span>
@@ -169,6 +202,7 @@ function Dots({ images, interval = 0 }: Props) {
           `,
         }}
       />
+
       <ul class="carousel justify-center col-span-full gap-6 z-10 row-start-4">
         {images?.map((_, index) => (
           <li class="carousel-item">
@@ -223,6 +257,12 @@ function BannerCarousel(props: Props) {
       id={id}
       class="grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min min-h-[660px]"
     >
+      <style
+        dangerouslySetInnerHTML={{
+          __html: bgText["bgText"],
+        }}
+      >
+      </style>
       <Slider class="carousel carousel-center w-full col-span-full row-span-full gap-6">
         {images?.map((image, index) => {
           const params = { promotion_name: image.alt };
