@@ -2114,6 +2114,61 @@
     ],
     "__resolveType": "commerce/loaders/product/extensions/listingPage.ts"
   },
+  "Preview site/sections/Ferramentas/Ferramentas.tsx": {
+    "__resolveType": "site/sections/Ferramentas/Ferramentas.tsx",
+    "ferramentas": [
+      {
+        "title": "Bigorna ",
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/67daa866-1e60-438e-a2cc-57e752b89f67",
+        "content": "<p>Na cutelaria, a bigorna é usada principalmente para moldar e manipular peças de metal quente. E</p>"
+      },
+      {
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/8c3d657c-576b-48c4-8a46-361ccb114eb3",
+        "title": "Lixaideira ",
+        "content": "<p>a cutelaria, a lixadeira é utilizada para refinar e polir as peças metálicas, especialmente após o processo de forjamento e têmpera.</p>"
+      },
+      {
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/ff4eb9af-68b4-4372-870b-ee5a28d397cb",
+        "title": "Forja",
+        "content": "<p>A forja é uma das ferramentas mais importantes na cutelaria e na metalurgia em geral. Ela é utilizada para aquecer o metal a altas temperaturas, tornando-o maleável o suficiente para ser moldado e manipulado.</p>"
+      },
+      {
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/245c971f-612c-4fbb-abfc-720857c60bff",
+        "title": "Furadeira",
+        "content": "<p>Embora não seja uma ferramenta tão central quanto a forja ou a lixadeira na cutelaria, a furadeira ainda desempenha um papel importante no processo de fabricação de facas e outros instrumentos cortantes.</p>"
+      },
+      {
+        "title": "Marreta",
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/ae516842-68b2-4519-b418-4f90d3b4d36d",
+        "content": "<p>Ela é usada para aplicar força e impacto controlado sobre o metal enquanto está sendo moldado na forja.</p>"
+      }
+    ],
+    "title": "Algumas das Ferramentas de um Cuteleiro"
+  },
+  "Preview site/sections/History/History.tsx": {
+    "__resolveType": "site/sections/History/History.tsx",
+    "history": {
+      "steps": [
+        {
+          "title": "Inici",
+          "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>"
+        },
+        {
+          "title": "Inici",
+          "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>"
+        },
+        {
+          "title": "Inici",
+          "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>"
+        },
+        {
+          "title": "Inici",
+          "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>"
+        }
+      ]
+    },
+    "title": "Um Pouco da Historia da Cutelaria"
+  },
   "Product Card Layout - 01": {
     "layout": {
       "hide": {},
@@ -3421,59 +3476,9 @@
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
   },
-  "Preview site/sections/History/History.tsx": {
-    "__resolveType": "site/sections/History/History.tsx",
-    "history": {
-      "steps": [
-        {
-          "title": "Inici",
-          "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>"
-        },
-        {
-          "title": "Inici",
-          "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>"
-        },
-        {
-          "title": "Inici",
-          "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>"
-        },
-        {
-          "title": "Inici",
-          "content": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>"
-        }
-      ]
-    },
-    "title": "Um Pouco da Historia da Cutelaria"
-  },
-  "Preview site/sections/Ferramentas/Ferramentas.tsx": {
-    "__resolveType": "site/sections/Ferramentas/Ferramentas.tsx",
-    "ferramentas": [
-      {
-        "title": "Biorgorna ",
-        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/67daa866-1e60-438e-a2cc-57e752b89f67",
-        "content": "<p>Na cutelaria, a bigorna é usada principalmente para moldar e manipular peças de metal quente. E</p>"
-      },
-      {
-        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/8c3d657c-576b-48c4-8a46-361ccb114eb3",
-        "title": "Lixaideira ",
-        "content": "<p>a cutelaria, a lixadeira é utilizada para refinar e polir as peças metálicas, especialmente após o processo de forjamento e têmpera.</p>"
-      },
-      {
-        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/ff4eb9af-68b4-4372-870b-ee5a28d397cb",
-        "title": "Forja",
-        "content": "<p>A forja é uma das ferramentas mais importantes na cutelaria e na metalurgia em geral. Ela é utilizada para aquecer o metal a altas temperaturas, tornando-o maleável o suficiente para ser moldado e manipulado.</p>"
-      },
-      {
-        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/245c971f-612c-4fbb-abfc-720857c60bff",
-        "title": "Furadeira",
-        "content": "<p>Embora não seja uma ferramenta tão central quanto a forja ou a lixadeira na cutelaria, a furadeira ainda desempenha um papel importante no processo de fabricação de facas e outros instrumentos cortantes.</p>"
-      },
-      {
-        "title": "Marreta",
-        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/ae516842-68b2-4519-b418-4f90d3b4d36d",
-        "content": "<p>Ela é usada para aplicar força e impacto controlado sobre o metal enquanto está sendo moldado na forja.</p>"
-      }
-    ],
-    "title": "Algumas das Ferramentas de um Cuteleiro"
+  "Preview site/sections/Meme/Tramontina.tsx": {
+    "__resolveType": "site/sections/Meme/Tramontina.tsx",
+    "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/92262f7e-b909-4cfc-ba3b-da0d514ce113",
+    "title": "Corte Rapido "
   }
 }
