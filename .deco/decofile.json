@@ -3232,15 +3232,46 @@
         "__resolveType": "Preview site/sections/Ferramentas/Ferramentas.tsx"
       },
       {
-        "__resolveType": "site/sections/Content/RichText.tsx",
-        "text": "<div data-breakout=\"normal\"><h2 class=\"R920X _5wA-D d0eTW vC2ou -oJ0G\" style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"J6XX-\" style=\"font-size: 36pt;\" data-mce-style=\"font-size: 36pt;\">O que é cutelaria?</span></h2><p id=\"viewer-pxpdi44\" class=\"R920X _5wA-D d0eTW vC2ou -oJ0G\" style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"J6XX-\">O nome pode até soar estranho e esquisito ao ouvido de muitos, mas a cutelaria é uma arte milenar essencial ao cotidiano, e tem um espaço mais do que especial no coração dos colecionadores.</span></p></div><div data-breakout=\"normal\" style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><p id=\"viewer-vtilj47\" class=\"R920X _5wA-D d0eTW vC2ou -oJ0G\"><span class=\"J6XX-\">Isso porque o ofício cuteleiro, como a própria origem do termo em Latim, Cutellum (faca) explica, é voltado à produção de instrumentos metálicos de corte e perfuração, como facas, navalhas, espadas, machadinhas, facões, etc, e seus adereços como cabos, bainhas, suportes decorativos, entre outros.</span></p></div><div data-breakout=\"normal\"><p id=\"viewer-buwxp52\" class=\"R920X _5wA-D d0eTW vC2ou -oJ0G\" style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span class=\"J6XX-\">Tudo que envolve esse universo é produzido pelo ramo cuteleiro, que é uma das profissões mais antigas do mundo. Atualmente é possível encontrar dois estilos de cutelaria, a artesanal, feita por artesãos, que fazem um trabalho personalizado e com estilo próprio, e a industrial, de larga escala, possível de ser encontrada em diversas lojas.&nbsp;&nbsp;</span></p></div>"
+        "__resolveType": "site/sections/Images/ImageGallery.tsx",
+        "title": "etset",
+        "layout": {
+          "desktop": "Symmetrical",
+          "headerAlignment": "left"
+        },
+        "banners": [
+          {
+            "alt": "Fashion",
+            "href": "/",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/465e3ceb-e565-43d5-8b61-141705978eb9",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/11041406-8713-41ae-9510-e266bd252f21"
+          },
+          {
+            "alt": "Fashion",
+            "href": "/",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/eca14020-f895-4bd7-9a85-554346fcd4d4",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/1829e8f6-7bc5-4c9b-aef8-6f45ec651fe0"
+          },
+          {
+            "alt": "Fashion",
+            "href": "/",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/33299ac3-8bbd-45b0-99cd-82ab80ba8005",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/4ee1668b-141e-4fab-a9ba-f5f6936f1513"
+          },
+          {
+            "alt": "Fashion",
+            "href": "/",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/127840c6-b2a5-436c-9f47-35a8494d9684",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/d5d35a54-816f-494f-941b-c5ba551ffe3a"
+          }
+        ],
+        "description": "Discover the collections of the season"
       },
       {
         "__resolveType": "site/sections/History/History.tsx",
         "history": {
           "steps": [
             {
-              "title": "Design:",
+              "title": "Design",
               "content": "<ul><li style=\"list-style-type: none;\"><ul><li>Esta é a fase inicial onde você conceitua o formato, tamanho e estilo da lâmina. Considere o uso pretendido da faca, ergonomia, estética e funcionalidade.</li><li>O design pode ser feito à mão, usando papel e lápis, ou utilizando software de modelagem 3D para criar um modelo digital.</li></ul></li></ul>",
               "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/899b3570-086a-40fa-a696-e8a776911874"
             },
