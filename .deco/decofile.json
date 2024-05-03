@@ -3185,7 +3185,7 @@
     "name": "Home",
     "sections": [
       {
-        "__resolveType": "Header - 01"
+        "__resolveType": "site/sections/Header/HeaderCustom.tsx"
       },
       {
         "__resolveType": "website/flags/multivariate/section.ts",
