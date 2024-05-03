@@ -3286,6 +3286,13 @@
         "description": "Algumas belas laminas feitas na cutelaria"
       },
       {
+        "__resolveType": "site/sections/Images/SectionGif.tsx",
+        "title": "Do aço bruto a uma bela  ",
+        "imgBg": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/7db6384a-c731-4ac6-9a10-0d16d556e40f",
+        "imgFaca": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/65610880-82c0-4f3c-bb3d-f63623509a3a",
+        "conntent": "<p>teste</p>"
+      },
+      {
         "__resolveType": "site/sections/History/History.tsx",
         "history": {
           "steps": [
