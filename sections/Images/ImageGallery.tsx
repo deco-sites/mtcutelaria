@@ -33,7 +33,7 @@ export interface Props {
   title?: string;
   description?: string;
   /**
-   * @maxItems 4
+   * @maxItems 6
    * @minItems 4
    */
   banners?: Banner[];
@@ -156,7 +156,7 @@ function Banner(
         />
         <img
           width={640}
-          class="w-full h-full object-cover"
+          class="w-full h-full object-cover "
           src={srcMobile}
           alt={alt}
           decoding="async"
@@ -166,6 +166,27 @@ function Banner(
     </a>
   );
 }
+
+const showImage = {
+  "showImage": `    
+          @keyframes showImage  {
+              from{
+                  opacity: 0;
+                  translate: -100vw 0;
+              }
+              from{
+                opacity: 1;
+                translate: 100vw 0;
+              }
+          }   
+          .showImage{
+            animation: showImage 7s ease-out;
+            animation-timeline:view();
+            animation-range: cover 0% cover 40%;
+
+        }
+      `,
+};
 
 export default function Gallery(props: Props) {
   const { title, description, banners, layout } = {
@@ -194,9 +215,15 @@ export default function Gallery(props: Props) {
         description={description}
         alignment={layout?.headerAlignment || "center"}
       />
-      <ul class="grid grid-flow-col grid-cols-2 grid-rows-6 gap-4 list-none">
+      <style
+        dangerouslySetInnerHTML={{
+          __html: showImage["showImage"],
+        }}
+      >
+      </style>
+      <ul class="flex flex-row flex-wrap gap-4 list-none ">
         {banners?.map((banner, index) => (
-          <li class={`${mobileItemLayout(index)} ${desktopItemLayout(index)}`}>
+          <li class={`w-[calc(50%-1rem)] showImage`}>
             <Banner {...banner} borderRadius={props.layout?.borderRadius} />
           </li>
         ))}

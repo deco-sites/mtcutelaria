@@ -17,6 +17,7 @@ import * as $Header_Cart_vnda from "./islands/Header/Cart/vnda.tsx";
 import * as $Header_Cart_vtex from "./islands/Header/Cart/vtex.tsx";
 import * as $Header_Cart_wake from "./islands/Header/Cart/wake.tsx";
 import * as $Header_Drawers from "./islands/Header/Drawers.tsx";
+import * as $Header_HeaderCustom from "./islands/Header/HeaderCustom.tsx";
 import * as $Header_Searchbar from "./islands/Header/Searchbar.tsx";
 import * as $History_History from "./islands/History/History.tsx";
 import * as $Newsletter from "./islands/Newsletter.tsx";
@@ -48,6 +49,7 @@ const manifest = {
     "./islands/Header/Cart/vtex.tsx": $Header_Cart_vtex,
     "./islands/Header/Cart/wake.tsx": $Header_Cart_wake,
     "./islands/Header/Drawers.tsx": $Header_Drawers,
+    "./islands/Header/HeaderCustom.tsx": $Header_HeaderCustom,
     "./islands/Header/Searchbar.tsx": $Header_Searchbar,
     "./islands/History/History.tsx": $History_History,
     "./islands/Newsletter.tsx": $Newsletter,
