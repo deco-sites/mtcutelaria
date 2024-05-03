@@ -7,7 +7,7 @@ export interface Props {
 
 export default function FooterCustom(props: Props) {
   return (
-    <div class="flex justify-center items-center w-full  bg-base-100 py-6 pt-20">
+    <div class="flex justify-center items-center w-full  bg-base-100 py-6 pt-20 fixed">
       <Image
         width={200}
         height={80}
