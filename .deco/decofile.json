@@ -3233,7 +3233,7 @@
       },
       {
         "__resolveType": "site/sections/Images/ImageGallery.tsx",
-        "title": "etset",
+        "title": "Facas",
         "layout": {
           "desktop": "Symmetrical",
           "headerAlignment": "left"
@@ -3276,7 +3276,7 @@
             "href": " "
           }
         ],
-        "description": "Discover the collections of the season"
+        "description": "Algumas belas laminas feitas na cutelaria"
       },
       {
         "__resolveType": "site/sections/History/History.tsx",
