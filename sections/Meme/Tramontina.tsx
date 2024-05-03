@@ -70,7 +70,7 @@ export default function Tramontina(props: Props) {
         </span>
       </div>
       <div class="meme">
-        <Image
+        <img
           width={700}
           height={300}
           src={props.img}

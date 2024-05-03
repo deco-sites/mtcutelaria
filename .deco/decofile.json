@@ -3294,6 +3294,7 @@
       },
       {
         "__resolveType": "site/sections/History/History.tsx",
+        "title": "COMO FABRICAR UMA FACA ARTESANAL? CONHEÇA O PROCESSO!",
         "history": {
           "steps": [
             {
@@ -3342,11 +3343,10 @@
               "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/113d1375-bbc8-4cb5-89b5-39b5d5c5992e"
             }
           ]
-        },
-        "title": "COMO FABRICAR UMA FACA ARTESANAL? CONHEÇA O PROCESSO!"
+        }
       },
       {
-        "__resolveType": "Preview site/sections/Meme/Tramontina.tsx"
+        "__resolveType": "meme"
       },
       {
         "__resolveType": "site/sections/Footer/FooterCustom.tsx",
@@ -3541,5 +3541,11 @@
   },
   "weather": {
     "__resolveType": "decohub/apps/weather.ts"
+  },
+  "meme": {
+    "__resolveType": "Preview site/sections/Meme/Tramontina.tsx"
+  },
+  "Preview site/sections/Footer/FooterCustom.tsx": {
+    "__resolveType": "site/sections/Footer/FooterCustom.tsx"
   }
 }
