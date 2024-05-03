@@ -3185,7 +3185,14 @@
     "name": "Home",
     "sections": [
       {
-        "__resolveType": "site/sections/Header/HeaderCustom.tsx"
+        "__resolveType": "site/sections/Header/HeaderCustom.tsx",
+        "img": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8381/699605e1-bbaf-413f-962e-ec17dbff49ef",
+        "link": [
+          {
+            "label": "Home",
+            "href": "#"
+          }
+        ]
       },
       {
         "__resolveType": "website/flags/multivariate/section.ts",
